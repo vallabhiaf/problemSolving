@@ -10,7 +10,14 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         #Mirror function to check 
          
-    
+         """ For two trees to be mirror images,
+        the following three conditions must be true
+        1 - Their root node's key must be same
+        2 - left subtree of left tree and right subtree
+          of the right tree have to be mirror images
+        3 - right subtree of left tree and left subtree
+           of right tree have to be mirror images
+             """
          def isMirror( root1,root2):
              if not root1 and not root2:
                 return True
