@@ -8,6 +8,8 @@ class Solution:
         #either to take one step which will take you to n-1 step
         #or take two steps which will take you to nth step
         #valuesfor both you know you add it
+        #this one and two zre ways from the a back to reach the top
+        #this is a bottom up apprach
         
         #we solve it by visualizing a descion tree first
         #complexity o(n)
