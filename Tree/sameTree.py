@@ -8,7 +8,7 @@ class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         
         
-        //DFS recursive 
+        #DFS recursive 
         if not p and not q:
             return True
         if not p or not q or p.val != q.val:
