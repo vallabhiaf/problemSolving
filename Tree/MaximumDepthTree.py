@@ -9,6 +9,7 @@ class Solution:
         
         
         #got to each row add the nodes in queue and until the queue is empty keep adding 1 to the depth
+        #BFS METHOD
         if not root:
             return 0
         
