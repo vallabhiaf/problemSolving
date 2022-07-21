@@ -1,5 +1,7 @@
 class Solution:
     def lengthOfLongestSubstring(s):
+
+        #Keep sliding and leave old char
         setmax=set() #Data strucutre can only contain unique chars 
         maxi=0
         left=0
