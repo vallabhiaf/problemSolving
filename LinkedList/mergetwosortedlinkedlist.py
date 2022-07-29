@@ -5,7 +5,10 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+       
+        #This is the a node for a singly-linked list, which is capable of holding an type of Object. A ListNode consists of two data members: The data we are keeping track of at this node (Object) The next ListNode in the chain.
         dummy=ListNode()
+        ##Will intially refer to zero 
         tail=dummy
         while l1 and l2:
             if l1.val< l2.val:
