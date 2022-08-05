@@ -18,6 +18,7 @@ class Solution:
             # or is part of current word, e.g. i=b in "b", " b" "ab", "a ab "
             elif i != " ":
                 word = i + word
+            #is space move ahead
             else:
                 continue
 
