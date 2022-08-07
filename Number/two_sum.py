@@ -12,6 +12,7 @@ class Solution:
             dict1[nums[i]]=i
         
         #Find if complementary is availble
+        #and then return 
         for i in range(n):
             d=target-nums[i]
             
